@@ -301,6 +301,7 @@ var scenario = /** @class */ (function () {
         for (var i = 0; i < 20; i++) {
             protractor_1.browser.actions().sendKeys(protractor_1.protractor.Key.DOWN).perform();
             protractor_1.browser.actions().sendKeys(protractor_1.protractor.Key.ENTER).perform();
+            protractor_1.browser.actions().sendKeys(protractor_1.protractor.Key.ENTER).perform();
         }
         this.Verify_Email_id();
     };
