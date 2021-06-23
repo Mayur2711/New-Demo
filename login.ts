@@ -5,7 +5,7 @@ import { report } from 'process';
 var xlsx = require('xlsx');
 var workbook = xlsx.readFile('./user_credentials.xlsx');
 var worksheet = workbook.Sheets['Sheet1']
-//test change
+
 export class login
 {
     userId : ElementFinder;
