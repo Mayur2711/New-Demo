@@ -17,7 +17,6 @@ describe('Dashboard Sanity Suite',function()
 
     it('login valid user',function()
     {
-       
         browser.get('https://abbottdashboard.btsmomenta.com/#/login');
         expect(browser.getTitle()).toEqual('Momentadashboardapp');
         browser.driver.manage().window().maximize();
